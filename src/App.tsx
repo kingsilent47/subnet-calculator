@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
