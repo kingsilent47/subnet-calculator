@@ -5,7 +5,7 @@ import Terms from './pages/Terms';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen flex flex-col bg-gray-50 text-gray-900">
         <header className="border-b border-gray-200 bg-white">
           <div className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
@@ -29,7 +29,7 @@ function App() {
           </div>
         </footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
